@@ -28,7 +28,7 @@
 
 .hero__button{
     margin-bottom: 15rem;
-    width: 7rem;
+    width: 6rem;
     font-size: var(--size-s);
     padding: 0.75rem;
     text-transform: capitalize;
