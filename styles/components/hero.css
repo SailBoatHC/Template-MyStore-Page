@@ -1,0 +1,164 @@
+.hero{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.hero__storename{
+    color: var(--clr-slate400);
+    font-size: var(--size-3xl);
+}
+
+.hero__main{
+    color: var(--clr-blue);
+    font-size: var(--size-7xl);
+    line-height: 0.9;
+    
+}
+
+.hero__featured{
+    color: var(--clr-slate400);
+    font-size: var(--size-4xl);
+    margin-bottom: 2rem;
+}
+
+.hero__button{
+    margin-bottom: 15rem;
+    width: 7rem;
+    font-size: var(--size-s);
+    padding: 0.75rem;
+    text-transform: capitalize;
+}
+
+/* xs */
+@media (min-width: 475px) {
+    .hero{
+        gap: 1.5rem;
+    }
+    
+    .hero__storename{
+        font-size: var(--size-2xl);
+    }
+    
+    .hero__main{
+        font-size: var(--size-6xl);
+    }
+    
+    .hero__featured{
+        color: var(--clr-slate400);
+        font-size: var(--size-3xl);
+    }
+    
+    .hero__button{
+        font-size: var(--size-s);
+    }
+}
+
+/* s */
+@media (min-width: 640px) {
+}
+
+/* m */
+@media (min-width: 768px) {
+    .hero{
+        gap: 0.75rem;
+    }
+    
+    .hero__storename{
+        font-size: var(--size-4xl);
+    }
+    
+    .hero__main{
+        font-size: var(--size-8xl);
+    }
+    
+    .hero__featured{
+        color: var(--clr-slate400);
+        font-size: var(--size-5xl);
+    }
+    
+    .hero__button{
+        font-size: var(--size-base);
+    }
+}
+
+/* l */
+@media (min-width: 1024px) {
+    .hero{
+        gap: 1.5rem;
+    }
+    
+    .hero__storename{
+        font-size: var(--size-4xl);
+    }
+    
+    .hero__main{
+        font-size: var(--size-9xl);
+    }
+    
+    .hero__featured{
+        color: var(--clr-slate400);
+        font-size: var(--size-6xl);
+    }
+    
+    .hero__button{
+        font-size: var(--size-base);
+    }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+    .hero{
+        gap: 2rem;
+    }
+    
+    .hero__storename{
+        font-size: var(--size-5xl);
+    }
+    
+    .hero__main{
+        font-size: var(--size-9xl);
+    }
+    
+    .hero__featured{
+        color: var(--clr-slate400);
+        font-size: var(--size-7xl);
+    }
+    
+    .hero__button{
+        font-size: var(--size-base);
+        width: var(--size-9xl);
+    }
+}
+
+/* xxl */
+@media (min-width: 1536px) {
+}
+
+/* xs */
+@media (min-width: 475px) {
+}
+
+/* s */
+@media (min-width: 640px) {
+}
+
+/* m */
+@media (min-width: 768px) {
+}
+
+/* l */
+@media (min-width: 1024px) {
+}
+
+/* xl */
+@media (min-width: 1280px) {
+}
+
+/* xxl */
+@media (min-width: 1536px) {
+}

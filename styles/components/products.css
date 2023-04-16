@@ -1,0 +1,197 @@
+.productlist{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    gap: 0.5rem;
+}
+img{
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+.product1,.product2,.product3{
+    padding: 2em;
+    border: 1px solid var(--clr-slate400);
+    border-radius: 15px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.product1__name,.product2__name,.product3__name{
+    color: var(--clr-slate400);
+    font-size: var(--size-4xl);
+    
+}
+.product1__desc,.product2__desc,.product3__desc{
+    color: var(--clr-slate600);
+    font-size: var(--size-xl);
+}
+.product2{
+    justify-content: space-around;
+}
+.product3{
+    justify-content: space-between;
+}
+.product__btn{
+    padding: 0.75rem;
+}
+
+/* xs */
+@media (min-width: 475px) {
+    section{
+        gap: 0.5rem;
+        margin: 0;
+    }
+    img{
+        display: block;
+        width: auto;
+        margin-left: 0;
+        margin-right: 0;
+        border-radius: 10px;
+    }
+    .product1,.product2,.product3{
+        padding: 0.75em;
+        border: 1px solid var(--clr-slate400);
+        border-radius: 15px;
+        width: auto;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+    .product1__name,.product2__name,.product3__name{
+        color: var(--clr-slate400);
+        font-size: var(--size-2xl);
+        
+    }
+    .product1__desc,.product2__desc,.product3__desc{
+        color: var(--clr-slate600);
+        font-size: var(--size-l);
+    }
+    .product__btn{
+        font-size: var(--size-xs);
+        width: auto;
+        height: auto;
+    }
+}
+
+/* s */
+@media (min-width: 640px) {
+    section{
+        gap: 0.5rem;
+        margin: 0;
+    }
+    img{
+        display: block;
+        width: auto;
+        margin-left: 0;
+        margin-right: 0;
+        border-radius: 10px;
+    }
+    .product1,.product2,.product3{
+        padding: 0.75em;
+        border: 1px solid var(--clr-slate400);
+        border-radius: 15px;
+        width: auto;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+    .product1__name,.product2__name,.product3__name{
+        color: var(--clr-slate400);
+        font-size: var(--size-2xl);
+        
+    }
+    .product1__desc,.product2__desc,.product3__desc{
+        color: var(--clr-slate600);
+        font-size: var(--size-l);
+    }
+    .product__btn{
+        padding: 0.5rem;
+        font-size: var(--size-s);
+    }
+}
+
+/* m */
+@media (min-width: 768px) {
+    .productlist{
+        gap: 0.5rem;
+    }
+    img{
+        display: block;
+        width: auto;
+        margin-left: 0;
+        margin-right: 0;
+        border-radius: 10px;
+    }
+    .product1,.product2,.product3{
+        padding: 1em;
+        border: 1px solid var(--clr-slate400);
+        border-radius: 15px;
+        width: auto;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+    .product1__name,.product2__name,.product3__name{
+        color: var(--clr-slate400);
+        font-size: var(--size-4xl);
+        
+    }
+    .product1__desc,.product2__desc,.product3__desc{
+        color: var(--clr-slate600);
+        font-size: var(--size-xl);
+    }
+    .product__btn{
+        padding: 0.5rem;
+        display: inline;
+    }
+}
+
+/* l */
+@media (min-width: 1024px) {
+    .productlist{
+        gap: 1rem;
+    }
+    img{
+        display: block;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+    }
+    .product1,.product2,.product3{
+        padding: 2em;
+        border: 1px solid var(--clr-slate400);
+        border-radius: 15px;
+        width: 90%;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+    .product1__name,.product2__name,.product3__name{
+        color: var(--clr-slate400);
+        font-size: var(--size-5xl);
+        
+    }
+    .product1__desc,.product2__desc,.product3__desc{
+        color: var(--clr-slate600);
+        font-size: var(--size-xl);
+    }
+    .product__btn{
+        padding: 0.75rem;
+    }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+}
+
+/* xxl */
+@media (min-width: 1536px) {
+}

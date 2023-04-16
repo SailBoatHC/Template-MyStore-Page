@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@500,400,700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Page</title>
+    </head>
+    <body>
+      <header class="header conatiner">
+        <nav>
+          <ul class="header__menu">
+            <li>
+              <a class="header__link" href="#about">About</a>
+            </li>
+            <li>
+              <a class="header__link" href="#featured">Shop</a>
+            </li>
+            <li>
+              <a class="header__link" href="#contact">Contact</a>
+            </li>
+            <li class="header__line"></li>
+            <li>
+              <button id="theme-toggle" class="header__button">
+                Light/Dark
+              </button>
+            </li>
+          </ul>
+          <button class="header__bars">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>            
+          </button>
+        </nav>
+      </header>
+      <!--Mobile Nav-->
+      <div class="mobile-nav">
+        <nav>
+          <ul class="mobile-nav__menu">
+            <li>
+              <a class="mobile-nav__link" href="#about">About</a>
+            </li>
+            <li>
+              <a class="mobile-nav__link" href="#featured">Shop</a>
+            </li>
+            <li>
+              <a class="mobile-nav__link" href="#contact">Contact</a>
+            </li>
+            <li class="mobile-nav__link-line"></li>
+            <li class="mobile-nav__button">
+            <button id="theme-toggle">Light/Dark</button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!--End of Mobile Nav-->
+      <main>
+        <section class="hero container">
+          <h2 class="hero__storename">My Store</h2>
+          <h1 class="hero__main">WELCOME TO<br> OUR STORE</h1>
+          <button class="hero__button">Shop Now</button>
+          <h3 class="hero__featured">Our Featured Products:</h3>
+        </section>
+        <section id="featured" class="productlist container">
+          <section class="product1">
+            <br>
+            <h2 class="product1__name">Product 1</h2>
+            <br>
+            <div>
+              <img loading="lazy" src="Test.jpg" alt="Product">
+            </div>
+            <br>
+            <p class="product1__desc">This is Product 1, It has alot of features.</p>
+            <br>
+            <button class="product__btn">Add To Cart</button>&nbsp;
+            <button onclick="window.location.href='/nested/index.html' " class="product__btn">Buy Now</button>
+          </section>
+          <br>    
+          <section class="product2">
+            <br>
+            <h2 class="product2__name">Product 2</h2>
+            <br>
+            <div>
+              <img loading="lazy" src="Test.jpg" alt="Product">
+            </div>
+            <br>
+            <p class="product2__desc">This is Product 2, It has alot of features.</p>
+            <br>
+            <button class="product__btn">Add To Cart</button>&nbsp;
+            <button onclick="window.location.href='/nested/index.html' " class="product__btn">Buy Now</button>
+          </section>
+          <br>
+          <section class="product3">
+            <br>
+            <h2 class="product3__name">Product 3</h2>
+            <br>
+            <div>
+              <img loading="lazy" src="Test.jpg" alt="Product">
+            </div>
+            <br>
+            <p class="product3__desc">This is Product 3, It has alot of features.</p>
+            <br>
+            <button class="product__btn">Add To Cart</button>&nbsp;
+            <button onclick="window.location.href='/nested/index.html' " class="product__btn">Buy Now</button>
+          </section>    
+        </section>
+        <section id="about" class="pra container">
+            <h2 class="pra__main">WHY USE OUR PRODUCT?</h2>
+            <p class="pra__desc"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>            
+            <img loading="lazy" src="Test.jpg" alt="About" class="pra__img1">
+            <br><br>
+            <h2 class="pra__main">FEATURES</h2>
+            <p class="pra__desc"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <img loading="lazy" src="landscape.jpg" alt="About" class="pra__img2">
+          </section>
+          <section class="policies-contact container">
+            <section class="policies__section">
+              <h2 class="policies__main">Policies</h2>
+              <ul class="policies__ul">
+                <li class="policies__list"><a href="#" class="policies__links">Privacy Policy</a></li>
+                <li class="policies__list"><a href="#" class="policies__links">Terms Of Service</a></li>
+                <li class="policies__list"><a href="#" class="policies__links">Refund Policy</a></li>
+                <li class="policies__list"><a href="#" class="policies__links">Shipping Policy</a></li>
+              </ul>
+            </section>
+            <section id="contact" class="contact__section">
+              <h2 class="contact__main">Contact</h2>
+              <p class="contact__p">Contact us at <strong>example@gmail.com</strong> for any questions or queries.<br> Or Click This Button:</p>
+              <button class="contact__button">Contact Us</button>
+            </section>
+          </section>
+        <section class="footer container">
+          <footer>
+          <h3 class="footer__copyright">Copyright&copy; My Store 2000-2023</h3>
+          </footer>
+          <p class="footer__sig">~Lokesh Chandra Sai~</p>
+        </section>
+      </main>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

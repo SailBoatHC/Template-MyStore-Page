@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@500,400,700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Styles-->
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/components/checkout/checkout-header.css">
+    <link rel="stylesheet" href="/styles/components/checkout/checkout.css">
+    <link rel="stylesheet" href="/styles/components/checkout/checkout-footer.css">
+    <link rel="stylesheet" href="/styles/components/checkout/checkout-p-c.css">
+    <link rel="stylesheet" href="/styles/utils.css">
+    <title>My Page</title>
+    </head>
+    <body>
+        <header class="header conatiner">
+            <nav>
+              <ul class="header__menu">
+                <li>
+                  <a class="header__link" href="#about">About</a>
+                </li>
+                <li>
+                  <a class="header__link" href="#featured">Shop</a>
+                </li>
+                <li>
+                  <a class="header__link" href="#contact">Contact</a>
+                </li>
+                <li class="header__line"></li>
+                <li>
+                  <button onclick="window.location.href='Mainpage'" class="header__button">
+                    Main Page
+                  </button>
+                </li>
+              </ul>
+              <button class="header__bars">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>            
+              </button>
+            </nav>
+          </header>
+        <div class="checkout container">
+            <h2 class="checkout__main">Checkout</h2>
+            <form>
+              <label class="checkout__name" for="name">Name</label>
+              <br><br>
+              <input class="checkout__name-text" type="text" id="name" name="name" required>
+              <br><br>
+          
+              <label class="checkout__email" for="email">Email</label>
+              <br><br>
+              <input class="checkout__emal-text" type="email" id="email" name="email" required>
+              <br><br>
+          
+              <label class="checkout__address" for="address">Address</label>
+              <br><br>
+              <textarea id="address" name="address" required></textarea>
+              <br><br>
+          
+              <label class="checkout__ccn" for="card">Credit Card Number</label>
+              <br><br>
+              <input class="checkout__ccn-text" type="text" id="card" name="card" required>
+              <br><br>
+          
+              <label class="checkout__exp" for="expiry">Expiry Date</label>
+              <br><br>
+              <input class="checkout__exp-text" type="text" id="expiry" name="expiry" required>
+              <br><br>
+          
+              <label class="checkout__cvv" for="cvv">CVV</label>
+              <br><br>
+              <input class="checkout__cvv-text" type="text" id="cvv" name="cvv" required>
+              <br><br>
+          
+              <button class="checkout__button" type="submit">Place Order</button>
+            </form>
+          </div>
+          <section class="policies-contact container">
+            <section class="policies__section">
+              <h2 class="policies__main">Policies</h2>
+              <ul class="policies__ul">
+                <li class="policies__list"><a href="#" class="policies__links">Privacy Policy</a></li>
+                <li class="policies__list"><a href="#" class="policies__links">Terms Of Service</a></li>
+                <li class="policies__list"><a href="#" class="policies__links">Refund Policy</a></li>
+                <li class="policies__list"><a href="#" class="policies__links">Shipping Policy</a></li>
+              </ul>
+            </section>
+            <section id="contact" class="contact__section">
+              <h2 class="contact__main">Contact</h2>
+              <p class="contact__p">Contact us at <strong>example@gmail.com</strong> for any questions or queries.<br> Or Click This Button:</p>
+              <button class="contact__button">Contact Us</button>
+            </section>
+          </section>
+          <section class="footer container">
+            <footer>
+            <h3 class="footer__copyright">Copyright&copy; My Store 2000-2023</h3>
+            </footer>
+            <p class="footer__sig">~Lokesh Chandra Sai~</p>
+          </section>
+    </body>
+</html>
