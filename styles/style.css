@@ -68,6 +68,3 @@ a{
 strong{
     color: var(--clr-indigo);
 }
-img{
-    border-radius: 10rem;
-}
