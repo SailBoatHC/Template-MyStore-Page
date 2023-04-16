@@ -83,7 +83,7 @@ img{
     }
     .product1__desc,.product2__desc,.product3__desc{
         color: var(--clr-slate600);
-        font-size: var(--size-l);
+        font-size: var(--size-base);
     }
     .product__btn{
         font-size: var(--size-xs);
