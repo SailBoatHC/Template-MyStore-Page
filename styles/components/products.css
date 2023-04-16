@@ -107,10 +107,8 @@ img{
         width: auto;
         margin-left: 0;
         margin-right: 0;
-        border-radius: 10rem;
     }
     .product1,.product2,.product3{
-        padding: 0.75em;
         border: 1px solid var(--clr-slate400);
         border-radius: 15px;
         width: auto;

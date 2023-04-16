@@ -21,9 +21,7 @@
 }
 
 .pra__img2{
-    aspect-ratio: 16/9;
-    width: 70%;
-    float: right;
+    width: 100rem;
 }
 
 /* xs */
@@ -51,12 +49,11 @@
     }
 
     .pra__img1{
-        width: var(--size-10xl);
+        width: 20rem;
     }
     
     .pra__img2{
-        aspect-ratio: 16/9;
-        width: 70%;
+        width: 25rem;
         float: right;
     }
 }
