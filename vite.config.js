@@ -10,5 +10,5 @@ export default defineConfig({
       },
     },
   },
-  base:"Template-MyStore-Page"
+  base:"/Template-MyStore-Page"
 })

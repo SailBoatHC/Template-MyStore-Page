@@ -34,6 +34,30 @@
     text-transform: capitalize;
 }
 
+/* xxs */
+@media (max-width: 375px) {
+    .hero{
+        gap: 1.5rem;
+    }
+    
+    .hero__storename{
+        font-size: var(--size-xl);
+    }
+    
+    .hero__main{
+        font-size: var(--size-5xl);
+    }
+    
+    .hero__featured{
+        color: var(--clr-slate400);
+        font-size: var(--size-2xl);
+    }
+    
+    .hero__button{
+        font-size: var(--size-xs);
+    }
+}
+
 /* xs */
 @media (min-width: 475px) {
     .hero{
