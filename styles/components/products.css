@@ -43,7 +43,7 @@ img{
 }
 
 /* xxs */
-@media (max-width: 375px) {
+@media (min-width: 375px) {
     section{
         gap: 0.25rem;
         margin: 0;
@@ -94,6 +94,11 @@ img{
 
 /* xs */
 @media (min-width: 475px) {
+
+    .productlist{
+        flex-direction: row;
+    }
+
     section{
         gap: 0.5rem;
         margin: 0;
@@ -103,7 +108,7 @@ img{
         width: auto;
         margin-left: 0;
         margin-right: 0;
-        border-radius: 10px;
+        border-radius: 10rem;
     }
     .product1,.product2,.product3{
         padding: 0.75em;
