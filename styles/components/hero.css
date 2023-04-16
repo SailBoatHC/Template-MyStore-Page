@@ -35,7 +35,7 @@
 }
 
 /* xxs */
-@media (max-width: 375px) {
+@media (min-width: 375px) {
     .hero{
         gap: 1.5rem;
     }
@@ -45,7 +45,7 @@
     }
     
     .hero__main{
-        font-size: var(--size-4xl);
+        font-size: var(--size-5xl);
     }
     
     .hero__featured{
@@ -78,12 +78,32 @@
     }
     
     .hero__button{
-        font-size: var(--size-s);
+        font-size: var(--size-xs);
     }
 }
 
 /* s */
 @media (min-width: 640px) {
+    .hero{
+        gap: 1rem;
+    }
+    
+    .hero__storename{
+        font-size: var(--size-3xl);
+    }
+    
+    .hero__main{
+        font-size: var(--size-7xl);
+    }
+    
+    .hero__featured{
+        color: var(--clr-slate400);
+        font-size: var(--size-4xl);
+    }
+    
+    .hero__button{
+        font-size: var(--size-xs);
+    }
 }
 
 /* m */
@@ -106,7 +126,7 @@
     }
     
     .hero__button{
-        font-size: var(--size-base);
+        font-size: var(--size-xs);
     }
 }
 
@@ -130,7 +150,8 @@
     }
     
     .hero__button{
-        font-size: var(--size-base);
+        font-size: var(--size-s);
+        width: 7rem;
     }
 }
 
