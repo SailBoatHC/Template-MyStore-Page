@@ -7,9 +7,9 @@
     flex: 1;
     gap: 0.5rem;
 }
-img{
+.product__img1,.product__img2,.product__img3{
     display: block;
-    width: 50%;
+    width: auto;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
