@@ -22,6 +22,11 @@
 
 .pra__img2{
     width: 100rem;
+    border-radius: 10px;
+}
+
+.pra__img1{
+    border-radius: 10px;
 }
 
 /* xxs */
