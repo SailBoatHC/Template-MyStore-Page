@@ -27,6 +27,13 @@ footer{
     text-align: center;
 }
 
+/* 3xs */
+@media (min-width: 320px) {
+    .footer__copyright {
+        font-size: var(--size-s);
+    }
+}
+
 /* xxs */
 @media (min-width: 375px) {
     .footer__copyright{
