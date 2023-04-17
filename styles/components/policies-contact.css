@@ -64,59 +64,32 @@
 /* m */
 @media (max-width: 768px) {
     .policies-contact{
-        display: flex;
         flex-direction: column;
-        align-items: center;
         justify-content: center;
         text-align: center;
-        margin-top: 10rem;
-        border-top: 2px solid var(--clr-slate800);
     }
     
     .policies__main{
-        padding-top: 2rem;
-        padding-bottom: 1rem;
-        color: var(--clr-slate400);
         font-size: var(--size-2xl);
-    }
-    
-    .policies__list{
-        list-style: none;
-        text-align: center;
     }
     
     .policies__links{
         font-size: var(--size-s);
-        text-decoration: none;
-        font-weight: 600;
-        color: var(--clr-slate600);
-        letter-spacing: -0.05em;
-        transition: color 0.3s;
-        display: inline-block;
     }
     
-    .policies__links:hover{
-        color: var(--clr-rose);
-    }
     
     .contact__main{
-        color: var(--clr-slate400);
-        padding-top: 2rem;
-        padding-bottom: 1rem;
         font-size: var(--size-2xl);
+        text-align: center;
     }
-    
+     
     .contact__p{
-        color: var(--clr-slate600);
-        font-weight: 500;
-        margin-bottom: 1rem;
+        text-align: center;
     }
-    
+
     .contact__button{
         font-size: var(--size-s);
         text-align: center;
-        font-weight: 700;
-        letter-spacing: -0.5px;
     }
 
 }

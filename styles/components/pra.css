@@ -29,6 +29,27 @@
     border-radius: 10px;
 }
 
+/* 4xs */
+@media (min-width: 280px) {
+    .pra__main{
+        font-size: var(--size-3xl);
+        text-align: center;
+    }
+    
+    .pra__desc{
+        font-size: 0.65rem;
+    }
+
+    .pra__img1{
+        width: 15rem;
+    }
+    
+    .pra__img2{
+        width: 20rem;
+        float: right;
+    }
+}
+
 /* 3xs */
 @media (min-width: 320px) {
     .pra__main{
