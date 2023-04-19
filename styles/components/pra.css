@@ -38,6 +38,7 @@
     
     .pra__desc{
         font-size: 0.65rem;
+        font-size: var(--size-xs);
     }
 
     .pra__img1{
