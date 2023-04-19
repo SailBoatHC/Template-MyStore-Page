@@ -52,6 +52,39 @@
     letter-spacing: -0.5px;
 }
 
+/* 4xs */
+@media (max-width: 280px) {
+    .policies-contact{
+
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .policies__main{
+        font-size: var(--size-2xl);
+    }
+    
+    .policies__links{
+        font-size: var(--size-s);
+    }
+    
+    
+    .contact__main{
+        font-size: var(--size-2xl);
+        text-align: center;
+    }
+     
+    .contact__p{
+        text-align: center;
+        font-size: var(--size-s);
+    }
+
+    .contact__button{
+        font-size: var(--size-s);
+        text-align: center;
+    }
+}
+ 
 /* xs */
 @media (min-width: 475px) {
 
