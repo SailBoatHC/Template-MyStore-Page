@@ -76,7 +76,7 @@
      
     .contact__p{
         text-align: center;
-        font-size: var(--size-s);
+        font-size: var(--size-xs);
     }
 
     .contact__button{
